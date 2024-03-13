@@ -351,9 +351,9 @@ document.addEventListener('click',(e)=>{
 slideBtn[0].onclick=()=>{
   document.querySelector(".popup-carousel").classList.remove('active');
 }
-// window.oncontextmenu = () => {
-//   return false;
-// }
+window.oncontextmenu = () => {
+ return false;
+}
 document.body.addEventListener('keydown', function (e) {
   if ((e.ctrlKey && e.key === 'u') || 
       (e.ctrlKey && e.key === 'p') || 
